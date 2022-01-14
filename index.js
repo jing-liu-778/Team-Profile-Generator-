@@ -1,0 +1,1 @@
+const generateHTML = require

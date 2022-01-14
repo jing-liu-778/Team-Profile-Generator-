@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --red: rgb(199, 57, 57);
+    --white: white;
+    --blue: rgb(38, 38, 241);
+    --black:black;
+
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 50px;
+}
+
+.navbar-brand {
+    font-size: 50px;
+}
+
+
+.card-header {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.card-body {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
