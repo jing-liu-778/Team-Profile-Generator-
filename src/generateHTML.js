@@ -8,9 +8,12 @@ const generateManager = function (manager) {
                 <h4><i class="fas fa-mug-hot"></i>Manager</h4>
             </div>
             <div class="card-body">
-                <p class="id">ID: ${manager.id}</p>
-                <p class="email">Email: <a href="mailto:${manager.email}">${manager.email}</a></p>
-                <p class="office">Office Number: ${manager.officeNumber}</p>
+                <ul class="list-group list-group-flush border border-1 rounded">
+                    <li class="list-group-item id">ID: ${manager.id}</li>
+                    <li class="list-group-item email">Email: <a href="mailto:${manager.email}">${manager.email}</a></li>
+                    <li class="list-group-item office">Office Number: ${manager.officeNumber}</li>
+                </ul>
+              
             </div>
         </div>
     </div>
@@ -27,9 +30,12 @@ const generateEngineer = function (engineer) {
                 <h4><i class="fas fa-glasses"></i>Engineer</h4>
             </div>
             <div class="card-body">
-                <p class="id">ID: ${engineer.id}</p>
-                <p class="email">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-                <p class="github">Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
+                <ul class="list-group list-group-flush border border-1 rounded">
+                    <li class="list-group-item id">ID: ${engineer.id}</li>
+                    <li class="list-group-item email">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></li>
+                    <li class="list-group-item github">Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></li>
+                </ul>
+               
             </div>
         </div>
     </div>
@@ -46,9 +52,12 @@ const generateIntern = function (intern) {
                 <h4><i class="fas fa-user-graduate"></i>Intern</h4>
             </div>
             <div class="card-body">
-                <p class="id">ID: ${intern.id}</p>
-                <p class="email">Email:<a href="mailto:${intern.email}">${intern.email}</a></p>
-                <p class="school">School: ${intern.school}</p>
+                <ul class="list-group list-group-flush border border-1 rounded">
+                    <li class="list-group-item id">ID: ${intern.id}</li>
+                    <li class="list-group-item email">Email:<a href="mailto:${intern.email}">${intern.email}</a></li>
+                    <li class="list-group-item school">School: ${intern.school}</li>
+                </ul>
+                
             </div>
     </div>
 </div>
@@ -106,7 +115,7 @@ const generateTeamPage = function (employeeCards) {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Team Profile</title>
+      <title>My Team</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
       <link rel="stylesheet" href="style.css">

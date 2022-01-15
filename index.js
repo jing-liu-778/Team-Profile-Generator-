@@ -23,7 +23,7 @@ const addManager= ()=>{
         validate: (value)=>{
             if(value){return true;
             }else{
-                consloe.log("Please enter a name");
+                console.log("Please enter a name");
                 return false;
             }
         }
@@ -34,7 +34,7 @@ const addManager= ()=>{
         message: "What is the team manager's id?",
         validate: (value)=>{
             if(isNaN(value)){ 
-                consloe.log("Please enter a possitive number greater than zero");
+                console.log("Please enter a possitive number greater than zero");
                 return false;
             }else{
                return true;
@@ -48,7 +48,7 @@ const addManager= ()=>{
         validate: (value)=>{
             if(value){return true;
             }else{
-                consloe.log("Please enter email address");
+                console.log("Please enter email address");
                 return false;
                 }
         }
@@ -59,7 +59,7 @@ const addManager= ()=>{
         message: "What is the team manager's office number?",
         validate: (value)=>{
             if(isNaN(value)){ 
-                consloe.log("Please enter office number");
+                console.log("Please enter office number");
                 return false;
             }else{
                return true;
@@ -96,7 +96,7 @@ const addEmployee = ()=>{
         validate: (value)=>{
             if(value){return true;
             }else{
-                consloe.log("Please enter a name");
+                console.log("Please enter a name");
                 return false;
             }
         }
@@ -107,7 +107,7 @@ const addEmployee = ()=>{
         message: "What is the employee's id?",
         validate: (value)=>{
             if(isNaN(value)){ 
-                consloe.log("Please enter a possitive number greater than zero");
+                console.log("Please enter a possitive number greater than zero");
                 return false;
             }else{
                return true;
@@ -121,7 +121,7 @@ const addEmployee = ()=>{
         validate: (value)=>{
             if(value){return true;
             }else{
-                consloe.log("Please enter email address");
+                console.log("Please enter email address");
                 return false;
                 }
         }
@@ -134,7 +134,7 @@ const addEmployee = ()=>{
         validate: (value)=>{
             if(value){return true;
             }else{
-                consloe.log("Please enter github username");
+                console.log("Please enter github username");
                 return false;
                 }
         }
@@ -142,12 +142,12 @@ const addEmployee = ()=>{
         {
             type: 'input',
             name: 'school',
-            message: "Please enter the intern's school",
+            message: "Please enter the intern's school?",
             when: (input) => input.role === "Intern",
-            validate: nameInput => {
+            validate: (value) => {
                 if(value){return true;
                 }else{
-                    consloe.log("Please enter school name");
+                    console.log("Please enter school name");
                     return false;
                     }
             }
