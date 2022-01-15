@@ -20,8 +20,8 @@
   
   ## Usage 
   Use inquirer from your command line to answer questions about your project.
-  
-  View link here - [Screencastify](https://drive.google.com/file/d/1Z2ZUNsC6QBpbxNX9sCSE7eVNXnTxA5b0/view)
+  <img src="src/My team profile.gif"><br>
+  View link here - [Screencastify](https://drive.google.com/file/d/1cKbD1r_dVwqsTQXSkv-GQoPsosT7Q7gZ/view)
   
   ## License 
   This project is license under MIT

@@ -115,7 +115,7 @@ const generateTeamPage = function (employeeCards) {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>My Team</title>
+      <title>Team Profile</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
       <link rel="stylesheet" href="style.css">
@@ -123,7 +123,7 @@ const generateTeamPage = function (employeeCards) {
   <body>
       <header>
           <nav class="navbar" id="navbar">
-              <span class="navbar-brand mb-0 h1 w-100 text-center" id="navbar-text">Team Profile</span>
+              <span class="navbar-brand mb-0 h1 w-100 text-center" id="navbar-text">My Team</span>
           </nav>
       </header>
       <main>
