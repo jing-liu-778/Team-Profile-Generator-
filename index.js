@@ -24,7 +24,7 @@ const addManager= ()=>{
             if(value){return true;
             }else{
                 console.log("Please enter a name");
-                return false;
+                // return false;
             }
         }
         },
@@ -33,11 +33,11 @@ const addManager= ()=>{
         name: 'id',
         message: "What is the team manager's id?",
         validate: (value)=>{
-            if(isNaN(value)){ 
-                console.log("Please enter a possitive number greater than zero");
-                return false;
-            }else{
-               return true;
+            if(parseInt(value) >0 ){ 
+                
+                return true;
+            }else{console.log("Please enter a possitive number greater than zero");
+               return false;
                 }
         }
         },
@@ -58,11 +58,11 @@ const addManager= ()=>{
         name: 'officeNumber',
         message: "What is the team manager's office number?",
         validate: (value)=>{
-            if(isNaN(value)){ 
-                console.log("Please enter office number");
-                return false;
-            }else{
-               return true;
+            if(parseInt(value) >0 ){ 
+                
+                return true;
+            }else{console.log("Please enter a possitive number greater than zero");
+               return false;
                 }
         }
         },
@@ -106,11 +106,11 @@ const addEmployee = ()=>{
         name: 'id',
         message: "What is the employee's id?",
         validate: (value)=>{
-            if(isNaN(value)){ 
-                console.log("Please enter a possitive number greater than zero");
-                return false;
-            }else{
-               return true;
+            if(parseInt(value) >0 ){ 
+                
+                return true;
+            }else{console.log("Please enter a possitive number greater than zero");
+               return false;
                 }
         }
         },
