@@ -19,6 +19,7 @@ describe("Emolyee class", () => {
       expect(new Employee("Jared", 1, "jared@fakemail.com").getId()).toBe(1);
     });
   });
+
   describe("getEmail method", () => {
     it("return email", () => {
       expect(new Employee("Jared", 1, "jared@fakemail.com").getEmail()).toBe(
