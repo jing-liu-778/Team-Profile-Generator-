@@ -169,7 +169,7 @@ const addEmployee = () => {
       let { name, id, email, role, github, school, confirmAddEmployee } =
         employeeData;
       let employee;
-
+      // select role option
       if (role === "Engineer") {
         employee = new Engineer(name, id, email, github);
 
