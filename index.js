@@ -25,7 +25,6 @@ const addManager = () => {
             return true;
           } else {
             console.log("Please enter a name");
-            // return false;
           }
         },
       },
