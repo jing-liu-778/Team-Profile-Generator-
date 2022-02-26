@@ -77,7 +77,7 @@ const addManager = () => {
     });
 };
 
-// employee inquirer
+// add employee inquirer
 const addEmployee = () => {
   return inquirer
     .prompt([
